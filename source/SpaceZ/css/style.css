@@ -109,9 +109,10 @@ h2 {
 .div-header {
 	display: flex;
 	align-items: center;
-	padding-left: 286px;
+	padding-left: 160px;
 	padding-right: 160px;
 	margin-top: 40px;
+	justify-content: space-around;
 }
 
 .div-header-text {
@@ -124,6 +125,7 @@ h2 {
 
 .advantages {
 	display: flex;
+	justify-content: space-around;
 	height: 328px;
 	flex-direction: row;
 	align-items: baseline;
@@ -150,61 +152,33 @@ h2 {
 }
 
 .description {
+	display: flex;
+	justify-content: space-around;
 	background-color: white;
+	flex-wrap: wrap;
 	color: black;
-	padding-right: 160px;
-	padding-left: 160px;
-	padding-top: 80px;
 	padding-bottom: 80px;
-	height: 808px;
 }
 
-.description-map {
-	display: flex;
-	margin-bottom: 30px;
-	justify-content: space-around;
-}
-
-.description-map div {
+.description div {
 	width: 440px;
+	margin-top: 80px;
+	max-height: 350px;
 }
 
-.description-map img {
-	margin-right: 80px;
-}
-
-.description-map h2 {
-	margin-right: 90px;
-}
-
-.description-list {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.description-list div {
-	width: 440px;
-}
-
-.description-list ul {
+.description ul {
 	list-style: disc;
 	color: #ffcb06;
 	padding-left: 0;
 	padding-right: 80px;
 }
 
-.description-list li {
+.description li {
 	margin-top: 32px;
 }
 
-.description-list span {
+.description span {
 	color: #131313;
-}
-
-.description-list h2 {
-	margin-bottom: 40px;
 }
 
 .div-footer {
