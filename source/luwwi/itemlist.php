@@ -1,3 +1,0 @@
-<section>
-Привет!
-</section>
