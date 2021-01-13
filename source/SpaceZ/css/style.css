@@ -1,0 +1,246 @@
+body {
+	background-color: #222222;
+	color: white;
+	padding: 0;
+	margin: 0;
+	line-height: 24px;
+	font-family: Georgia, serif;
+}
+
+header {
+	background-color: #222222;
+	height: 700px;
+}
+
+main {
+	background-color: #131313;
+}
+
+footer {
+	background-color: #131313;
+	height: 347px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: 0.5s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin: 0;
+	line-height: 32px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 40px;
+	line-height: 64px;
+}
+
+header button {
+	background: url("../img/right-arrow-dark.png") no-repeat;
+	background-position: 90% 50%;
+	background-color: #ffcb06;
+	border-radius: 60px;
+	padding: 20px;
+	padding-top: 18px;
+	padding-right: 60px;
+	margin: 0;
+	margin-top: 32px;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	transition: 0.5s;
+}
+
+header button:hover {
+	background: url("../img/right-arrow-white.png") no-repeat;
+	background-position: 93% 50%;
+	background-color: #c49d0c;
+	color: white;
+}
+
+header p,a {
+	color: #d4d4d4;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	padding-left: 160px;
+	padding-right: 160px;
+	padding-top: 64px;
+}
+
+ul {
+	list-style: none;
+}
+
+header li {
+	display: inline;
+	margin-right: 30px;
+}
+
+nav ul {
+	margin-right: 400px;
+	margin-left: 40px;
+}
+
+nav img {
+	margin-right: 20px;
+	transition: 0.4s;
+}
+
+nav img:hover {
+	transform: translateY(-3px); 
+}
+
+h2 {
+	color: #131313;
+}
+
+.div-header {
+	display: flex;
+	align-items: center;
+	padding-left: 286px;
+	padding-right: 160px;
+	margin-top: 40px;
+}
+
+.div-header-text {
+	margin-right: 144px;
+}
+
+.div-header-text p {
+	margin-top: 32px;
+}
+
+.advantages {
+	display: flex;
+	height: 328px;
+	flex-direction: row;
+	align-items: baseline;
+	padding-right: 160px;
+	padding-left: 160px;
+	font-size: 14px;
+}
+
+.advantages div {
+	transition: 0.4s;
+}
+
+.advantages div:hover {
+	transform: translateY(-15px); 
+}
+
+.advantages figure {
+	margin-top: 80px;
+}
+
+.advantages figcaption {
+	margin-top: 20px;
+	color: #d4d4d4;
+}
+
+.description {
+	background-color: white;
+	color: black;
+	padding-right: 160px;
+	padding-left: 160px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	height: 808px;
+}
+
+.description-map {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: space-around;
+}
+
+.description-map div {
+	width: 440px;
+}
+
+.description-map img {
+	margin-right: 80px;
+}
+
+.description-map h2 {
+	margin-right: 90px;
+}
+
+.description-list {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.description-list div {
+	width: 440px;
+}
+
+.description-list ul {
+	list-style: disc;
+	color: #ffcb06;
+	padding-left: 0;
+	padding-right: 80px;
+}
+
+.description-list li {
+	margin-top: 32px;
+}
+
+.description-list span {
+	color: #131313;
+}
+
+.description-list h2 {
+	margin-bottom: 40px;
+}
+
+.div-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #888;
+}
+
+.div-footer ul {
+	padding-left: 0;
+}
+
+.div-footer li {
+	margin-top: 15px;
+}
+
+.div-footer div {
+	width: 180px;
+}
+
+.div-footer h3 {
+	text-align: left;
+	border-bottom: 1px solid #555555;
+	padding-bottom: 19px;
+	color: white;
+	margin-bottom: 60px;
+}
+
+.logo-footer {
+	color: #d4d4d4;
+	display: flex;
+	align-items: center;
+}
+
+.rights {
+	color: #444;
+	margin-top: 113px;
+}
